@@ -46,8 +46,7 @@ Seguir el manual oficial de HEADS: http://osresearch.net/Installing-Heads
 ## Sincronizar Disco Duro
 * En el menu principal ir a Options y despues ir a la penultima opcion llamada "Exit to recovery shell"
 * Insertar el USB y correr
-``` mount-usb
-```
+``` mount-usb```
 * Insertar la Yubikey
 * Despues correr el programa signing.sh
 * Le va a pedir el PIN de yubikey que es 12345678 por default.
@@ -56,8 +55,7 @@ Seguir el manual oficial de HEADS: http://osresearch.net/Installing-Heads
 ## Verificar Disco Duro
 * En el menu principal ir a Options y despues ir a la penultima opcion llamada "Exit to recovery shell"
 * Insertar el USB y correr
-``` mount-usb
-```
+``` mount-usb```
 * Despues correr el programa verify.sh
 * Despues le va a mostrar si es un Good Signature o Bad Signature dependiendo si hubo un cambio en el disco duro desde la ultima verificaion.
 
