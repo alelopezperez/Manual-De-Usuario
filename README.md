@@ -30,13 +30,10 @@ apt install -y \
 	texinfo \
 ```
 ## Compilacion
-```cd heads-0.2.1
-```
-```make BOARD=x230-flash
-```
+```cd heads-0.2.1```
+```make BOARD=x230-flash```
 
-```make BOARD=x230
-```
+```make BOARD=x230```
 
 # Instalar HEADS en BIOS CHIP
 Seguir el manual oficial de HEADS: http://osresearch.net/Installing-Heads
